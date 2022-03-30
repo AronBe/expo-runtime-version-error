@@ -3,6 +3,7 @@
     "name": "expo-runtime-version-error",
     "slug": "expo-runtime-version-error",
     "version": "1.0.0",
+    "runtimeVersion": "1.20",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.exporuntimeversionerror"
     },
     "web": {
       "favicon": "./assets/favicon.png"
